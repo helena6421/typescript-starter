@@ -12,11 +12,11 @@ import {
 import { HydratedDocument, QueryWithHelpers } from 'mongoose';
 
 import { BookDocument } from './schema';
-import AppService from './app.service';
+import { AppService } from './app.service';
 
-import CreateBookDTO from './dto/update.book.dto';
-import UpdateBookDTO from './dto/update.book.dto';
-import Id from './dto/id';
+import { CreateBookDTO } from './dto/update.book.dto';
+import { UpdateBookDTO } from './dto/update.book.dto';
+import { Id } from './dto/id';
 
 @Controller('app.controller')
 export class AppController {
