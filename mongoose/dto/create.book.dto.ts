@@ -1,5 +1,6 @@
 // с главного сайта https://docs.nestjs.com/controllers#request-object
 
+
 // Определяем схему DTO (Data Transfer Object).
 // DTO — это объект, который определяет, как данные будут отправляться по сети.
 // Можно определить схему DTO, используя интерфейсы TypeScript или простые классы.
